@@ -1,4 +1,16 @@
-# Build artifacts
+# Artefatos de Build (Não enviar o app compilado para não expor dados da máquina)
 FloatCam.app/
 module-cache/
+
+# Arquivos de sistema do macOS (Evita vazar configurações locais de pastas)
 .DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Xcode e logs genéricos (caso abra o projeto no Xcode futuramente)
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.log
