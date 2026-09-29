@@ -1,0 +1,4 @@
+# Build artifacts
+FloatCam.app/
+module-cache/
+.DS_Store
